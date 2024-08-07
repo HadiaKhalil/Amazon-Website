@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+
+
+}
+
+nav {
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 15px 4px 10px;
+    color: white;
+}
+
+
+.dflex {
+    display: flex;
+
+}
+
+.right-dflex {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.right-dflex {
+    display: flex;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.item {
+    padding: 8px 8px;
+    font-size: 15px;
+}
+
+.item:hover {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin: -1px;
+}
+
+.logo {
+    text-align: center;
+    margin: 1px;
+    margin-bottom: -5px;
+    padding: 6px 8px 0px 0px;
+    height: 43px;
+}
+
+a {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px 5px;
+}
+
+.y:hover {
+    border: 1px solid #f5f2f2;
+    margin: 1px;
+    border-radius: 3px;
+}
+
+a span {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+p {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.item i {
+    padding: 0 3px;
+}
+
+nav input {
+    width: 740px;
+    padding: 10px;
+    color: black;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+
+nav button {
+    padding: 3px 10px;
+    color: black;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+nav .all {
+    background-color: #f8f1f1;
+    border-radius: 5px 0px 0px 5px;
+}
+
+nav .search {
+    padding: 13px 17px;
+    margin: -2px;
+    background: rgb(231, 231, 230);
+    border-radius: 0px 5px 5px 0px;
+}
+
+nav .search i,
+nav .all i {
+    color: black;
+
+}
+
+.box:hover {
+    border: 4px solid rgb(247, 155, 80);
+    border-radius: 10px;
+}
+
+.nav-bottom {
+
+    background-color: black;
+    display: flex;
+    gap: 25px;
+    height: 35px;
+    margin-left: 0px;
+    color: white;
+
+
+}
+
+.dflex {
+    display: flex;
+}
+
+
+
+.item1:hover {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin: -1px;
+    height: 35px;
+
+
+
+
+
+}
+
+.nav-amazon {
+    display: flex;
+    background-color: #f1f1f1;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 2px;
+    box-shadow: 0 0 20px;
+    height: 40px;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.SELECT-BOX select {
+    background-color: #e2f7e7;
+    color: rgb(22, 21, 21);
+    border-radius: 7px;
+    box-shadow: #bceec9;
+    gap: 15PX;
+    width: 129px;
+
+
+
+
+}
+
+.SELECT-BOX select:hover {
+    background-color: rgb(231, 216, 216);
+}
+
+
+.text h5,
+b {
+
+    padding: 5px;
+    color: rgb(5, 5, 5);
+    margin-bottom: 5px;
+
+}
+
+.card {
+
+    background-color: rgba(250, 241, 241, 0.5);
+    ;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+.card-img-top {
+    border-radius: 10px;
+    width: 200px;
+    height: 280px;
+    padding-top: 7px;
+    padding-bottom: 33px;
+    text-align: center;
+
+}
+
+.card {
+    background-color: #f1f1f1;
+    height: 360px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+.card-body {
+
+    margin-top: 15px;
+    color: rgb(15, 15, 15);
+
+}
+
+.best {
+    background-color: rgb(21, 190, 190);
+    color: black;
+    max-width: max-content;
+
+
+}
+
+.card-title {
+    margin-top: -25px;
+}
+
+.image {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    padding-bottom: 15px;
+    background-color: orange;
+}
+
+.sign {
+    text-align: center;
+    border: solid black;
+
+
+}
+
+.start {
+    margin-right: 60px;
+
+}
+
+.here1 {
+    margin-left: 673px;
+    margin-top: -34px;
+}
+
+
+.new {
+    background-color: #f0c14b;
+    width: 200px;
+    height: 25px;
+
+}
+
+.cart {
+    display: flex;
+    background-color: rgb(17, 17, 20);
+
+    height: 400PX;
+    width: 100%;
+    margin-top: 1px;
+    color: rgb(235, 235, 228);
+
+    justify-content: space-around;
+
+
+}
+
+.go {
+
+    background-color: rgb(17, 17, 20);
+    color: white;
+    text-align: center;
+    align-content: center;
+    height: 30px;
+
+
+}
+
+.go:hover {
+
+    background-color: rgb(129, 129, 139);
+}
+
+.bold {
+    color: #fff;
+
+}
+
+p {
+    padding: 7px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(36, 36, 43);
+    gap: 9px;
+    height: 100PX;
+    width: 300%;
+    align-items: center;
+    padding-left: 250px;
+
+
+}
+
+.box1,
+.box2,
+.box3 {
+    border: 1px solid wheat;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+
+}
+
+.content1 {
+    background-color: #dfcca9;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    /* position: relative; */
+    padding-top: 6px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.content1 a {
+    color: red;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.signn {
+    width: 296px;
+    height: 400px;
+    padding: 20px 26px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid #050505;
+    border-radius: 4px;
+    margin: 20px auto 25px auto;
+
+}
+
+.signn h1 {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.signn label {
+    font-size: 13px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+
+.signn input {
+
+    width: 240px;
+    height: 25px;
+    padding: 3px 7px;
+    margin-top: 3px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+}
+
+.signn button {
+    width: 240px;
+    height: 31px;
+    margin-top: 15px;
+    background-color: #f0c14b;
+    border-top: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    background-image: linear-gradient(#f7da90, #e2b33b);
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #0066c0;
+}
+
+.signn a {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.breck p {
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 8px 0 7px;
+}
+
+.btn {
+    width: 348px;
+    height: 31px;
+    margin: 15px auto;
+    background-color: #e2f7e7;
+
+    background-image: linear-gradient(#f7da90, #e2b33b);
+    border: 1px solid #0e0c0c;
+    border-top-color: #949494;
+    border-radius: 3px;
+
+}
+
+footer .links {
+    display: flex;
+    justify-content: space-around;
+    width: 15px;
+    margin: 15px auto 15px auto;
+}
+
+.creat button {
+    width: 280px;
+    height: 31px;
+    margin-top: 15px;
+
+    border-top: 1px solid #1487bd;
+    border-top-color: #1696bd;
+
+    border-radius: 6px;
+}
+
+.im {
+    margin-top: -30px;
+}
+
+.parant {
+    display: flex;
+    background-color: #141414;
+    color: rgb(168, 158, 158);
+    width: 500%;
+}
+
+.parant b {
+    color: white;
+}
+
+.foot {
+    background-color: rgb(36, 33, 33);
+}
+
+.signn {
+    width: 296px;
+    height: 400px;
+    padding: 20px 26px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid #050505;
+    border-radius: 4px;
+    margin: 20px auto 25px auto;
+
+}
+
+.signn h1 {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.signn label {
+    font-size: 13px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+
+.your {
+    height: 30px;
+}
